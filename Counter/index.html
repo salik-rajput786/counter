@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="challenge-navbar">
+        <div class="left">
+            <a href="#" class="logo"><img src="logo.png" alt=""></a>
+        </div>
+        <h1 class="title">Counter</h1>
+
+        <div class="right">
+            <div class="responsive_nav">
+                <div class="hamburger">
+                    <input type="checkbox">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="cross mobile">✕</div>
+                    <section class="menu">
+                        <a href="https://github.com/salik-rajput786/" target="blank" class="github" title="Github Repo">
+                            <img src="github-.svg" alt="github repo">
+                            <span class="mobile">Github Repo</span>
+                        </a>
+                        <a href="https://app.netlify.com/teams/rajputmohdsalik786/sites" target="blank" class="github"
+                            title="Github Repo">
+                            <img src="netlifty-icon.avif" alt="github repo">
+                            <span class="mobile">Netlify</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/iamslk_khan/" target="blank" class="github"
+                            title="Github Repo">
+                            <img src="insta.png" alt="github repo">
+                            <span class="mobile">Instagram</span>
+                        </a>
+                        <a href="https://github.com/salik-rajput786/counter/"
+                            target="_blank" rel="noreferrer" class="source-code" title="Source Code">
+                            <img src="code.svg" alt="source code">
+                            <span class="mobile">Source code</span>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </nav>
+    <div class="container text-center">
+        <div class="counter-value">
+            <span class="value">0</span>
+        </div>
+        <div class="counter-controls">
+            <button class="btn btn-primary" id="decrement">-</button>
+            <button class="btn btn-primary" id="increment">+</button>
+        </div>
+        <div class="change">
+            <label for="changeBy">Increment/Decrement by:</label>
+            <input type="number" id="changeBy" value="1" min="1" max="10">
+        </div>
+        <div class="counter-controls">
+            <button class="btn btn-primary" id="reset">Reset</button>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
